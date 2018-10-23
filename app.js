@@ -1,45 +1,45 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
+    firstName: "Julie",
+    lastName: "Bourdin",
+    description: "Je suis étudiante en journalisme et en relations internationales à Sciences Po.",
+    photo: "/Users/juliebourdin/Desktop/Julie_Bourdin.jpg",
+    twitter: "julie__bourdin",
     github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    mail: "julie.bourdin@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      dateBegin: "Juin 2018",
+      dateEnd: false,
+      name: "Cape Talk Radio",
+      title: "Stagiaire",
+      description: "Assistante du producteur sur l'émission de l'après-midi avec le présentateur John Maytham"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Juillet 2018",
       dateEnd: false,
       name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      title: "Stagiaire",
+      description: "rédaction d'articles"
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
+      dateBegin: "Août 2018",
+      dateEnd: false,
+      name: "Géopolis",
       title: "Stagiaire et correspondant de presse",
-      description: false
+      description: "rédaction d'articles"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2017",
+      dateEnd: "En cours",
+      name: "Master Journalisme et Relations Internationales",
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
+      dateBegin: "20chais plus quoi",
+      dateEnd: "2017",
       name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }],
     languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    skills: ["Vidéo", "Radio", "eating", "questioning life", "hugs"]
   },
   computed: {
     fullName() {
